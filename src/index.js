@@ -124,8 +124,7 @@ class D {
   }
 }
 
+module.exports = D;
 
-module.exports = D
-
-day = new D(2021, 4, 11).when()
-console.log(day)
+const day = new D(2021, 4, 11).when();
+console.log(day);
